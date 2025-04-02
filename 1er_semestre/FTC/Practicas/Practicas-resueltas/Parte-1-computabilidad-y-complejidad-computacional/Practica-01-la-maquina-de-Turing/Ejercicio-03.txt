@@ -1,0 +1,30 @@
+//-------Probar en: https://turingmachinesimulator.com/
+//-------CONFIGURATION
+name: practica-1-ejercicio-3
+init: q0
+accept: qA
+
+//-------DELTA FUNCTION:
+q0,h
+qh,h,>
+
+qh,a
+qa,a,>
+
+qh,b
+qb,b,>
+
+qa,a
+qa,a,>
+
+qb,b
+qb,b,>
+
+qh,_
+qA,_,-
+
+qa,_
+qA,_,-
+
+qb,_
+qA,_,-
