@@ -1,0 +1,38 @@
+Respuestas correctas para los puntos que hice mal en el parcial:
+
+1.Sobre un file system:
+- Aunque en XFS se asignan dinamicamente no es posible reducir un file system
+- Al momento de montar un file system se puede indicar que no se modifique la fecha de acceso a los archivos cada vez que se los accede
+
+2.Sobre el kernel:
+- Creo que es la B pero no estoy seguro.
+- "Para actualizar el menu de arranque incorporando el nuevo kernel en la configuracion"
+
+3.Indicar opciones correctas:
+- En LVM al crear un volumen logico el tamaño del mismo siempre es multiplo del tamaño del extent definido en el volume group.
+- En BTRFS no es posible definir en un subvolumen un tipo de file system diferente a BTRFS.
+
+5.Cual no describe a un modulo del kernel linux:
+- Creo que es la D.
+- "Permiten impementar sys calls dinamicas".
+
+6. Que opcion/es decriben initramfs:
+- Aloja modulos de kernel y programas utiles para el arranque del sistema.
+- No siempre es necesario.
+
+9.Indicar las opciones correctas:
+- Una jerarquia de un controlador no puede estar montada en las dos versiones de cgroups simultaneamente.
+- En linux si un container provoca un error en el kernel esto podria afectar a los demas containers y el host anfitrion.
+
+10.Marcar las correctas:
+- Mediante el uso de la variable UMASK es posible indicar los permisos por default en ña creacion de un archivo o directorio.
+- Asignar el sticky-bit a un directorio indica que los archivos y directorios que existen dentro de ese dir solo pueden ser renombrados o eliminados por el propietario del archivo y/o directorio o el susario root.
+
+12.Cuales son correctas con respecto a la virtualizacion:
+- No es posible definir limites en un cgroup hijo que superen a los definidos sn su cgroup padre.
+- En cgroupvq, un proceso solo puede pertenecer a un cgroup dentro de una jerarquia.
+
+13. Sobre android:
+- Utiliza un kernel linux.
+- Utiliza su propia libc llamada BIONIC
+
