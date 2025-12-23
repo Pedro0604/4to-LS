@@ -1,4 +1,4 @@
-# Ingeniería
+# Ingeniería de Software 3
 ## 4to año - 1er semestre
 
 ### [Actividad grupal 1](https://github.com/Pedro0604/4to-LS/tree/main/1er_semestre/Ing3/Actividades-grupales/Actividad-grupal-01)
