@@ -1,4 +1,4 @@
-# 4to LS - Facultad de Informática UNLP - 2025
+# 4to Licenciatura en Sistemas - Facultad de Informática UNLP - 2025
 
 <details open>
   <summary><h2>1er semestre</h2></summary>
